@@ -1,0 +1,21 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Go build and test artifacts
+/bin/
+/build/
+/dist/
+*.exe
+*.test
+*.out
+coverage.html
+
+# Local development files
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
